@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const adamlik = new Discord.ShardingManager('./gulu.js', {
-    totalShards: '2', // shard sayısı ya da auto yazılabilir
+    totalShards: 2, // shard sayısı ya da auto yazılabilir
     token: 'token' // token
 });
 
